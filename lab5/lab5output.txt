@@ -1,0 +1,28 @@
+test_0 (__main__.lab5a.test_0)
+[Lab 5] - [Investigation 1] - [Part 1] - Files - Test for file creation: ./lab5a.py ... ok
+test_a (__main__.lab5a.test_a)
+[Lab 5] - [Investigation 1] - [Part 1] - Files - Test for errors running: ./lab5a.py ... FAIL
+
+======================================================================
+FAIL: test_a (__main__.lab5a.test_a)
+[Lab 5] - [Investigation 1] - [Part 1] - Files - Test for errors running: ./lab5a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/liabrown/lbrown63-OPS445-Labs/lab5/CheckLab5.py", line 46, in test_a
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: make sure you copied the script exactly!)
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.215s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running CheckLab5.py
+===============================================================
+    User login name: liabrown
+    Linux system name: fedora
+    Python executable: /usr/bin/python3
+    Python version: 3129
+    OS Platform: linux
+    Working Directory: /home/liabrown/lbrown63-OPS445-Labs/lab5
+    Start at: Sun Mar  9 23:15:04 2025
+===============================================================

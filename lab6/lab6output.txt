@@ -1,0 +1,44 @@
+test_0 (__main__.lab6a.test_0)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - Test for file creation: ./lab6a.py ... ok
+test_a (__main__.lab6a.test_a)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating a Class - Test for errors running: ./lab6a.py ... ok
+test_a1 (__main__.lab6a.test_a1)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - Test for correct shebang line: ./lab6a.py ... ok
+test_a_instantiate_class_0 (__main__.lab6a.test_a_instantiate_class_0)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - instantiating object with 0 arguments fails ... ok
+test_a_instantiate_class_1 (__main__.lab6a.test_a_instantiate_class_1)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - instantiating object with 1 arguments fails ... ok
+test_b1_displayStudent (__main__.lab6a.test_b1_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() provides the correct output ... FAIL
+
+======================================================================
+FAIL: test_b1_displayStudent (__main__.lab6a.test_b1_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/liabrown/lbrown63-OPS445-Labs/lab6/CheckLab6.py", line 73, in test_b1_displayStudent
+    student = lab6aStudent.Student('John', '013454900')
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'lab6a' has no attribute 'Student'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liabrown/lbrown63-OPS445-Labs/lab6/CheckLab6.py", line 76, in test_b1_displayStudent
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running CheckLab6.py
+===============================================================
+    User login name: liabrown
+    Linux system name: fedora
+    Python executable: /usr/bin/python3
+    Python version: 3129
+    OS Platform: linux
+    Working Directory: /home/liabrown/lbrown63-OPS445-Labs/lab6
+    Start at: Sun Mar 16 22:46:25 2025
+===============================================================

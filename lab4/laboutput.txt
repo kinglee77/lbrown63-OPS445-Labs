@@ -1,0 +1,76 @@
+test_0 (__main__.lab4a.test_0)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4a.py ... ok
+test_a (__main__.lab4a.test_a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for errors running: ./lab4a.py ... ok
+test_a1 (__main__.lab4a.test_a1)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4a.py ... ok
+test_a_function_join (__main__.lab4a.test_a_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() fails without 2 arguments ... ok
+test_b_function_join (__main__.lab4a.test_b_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() fails without 2 arguments ... ok
+test_c_function_join (__main__.lab4a.test_c_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() fails without 2 arguments ... ok
+test_d_function_join_sets (__main__.lab4a.test_d_function_join_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() joins sets together {1,2,3,4,5} and {2,1,0,-1,-2} ... ok
+test_e_function_join_sets (__main__.lab4a.test_e_function_join_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() joins sets together ... ok
+test_f_function_match_sets (__main__.lab4a.test_f_function_match_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() ... ok
+test_g_function_match_sets (__main__.lab4a.test_g_function_match_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() ... ok
+test_h_function_diff_sets (__main__.lab4a.test_h_function_diff_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() ... ok
+test_i_function_diff_sets (__main__.lab4a.test_i_function_diff_sets)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() ... ok
+test_0 (__main__.lab4b.test_0)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4b.py ... ok
+test_a (__main__.lab4b.test_a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for errors running: ./lab4b.py ... ok
+test_a1 (__main__.lab4b.test_a1)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4b.py ... ok
+test_a_function_join (__main__.lab4b.test_a_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() fails without 2 arguments ... ok
+test_b_function_join (__main__.lab4b.test_b_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_lists() fails without 2 arguments ... ok
+test_c_function_join (__main__.lab4b.test_c_function_join)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_lists() fails without 2 arguments ... ok
+test_d_function_join_lists (__main__.lab4b.test_d_function_join_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() joins lists together {1,2,3,4,5} and {2,1,0,-1,-2} ... ok
+test_e_function_join_lists (__main__.lab4b.test_e_function_join_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() joins lists together ... ok
+test_f_function_match_lists (__main__.lab4b.test_f_function_match_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_lists() ... ok
+test_g_function_match_lists (__main__.lab4b.test_g_function_match_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_lists() ... ok
+test_h_function_diff_lists (__main__.lab4b.test_h_function_diff_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_lists() ... ok
+test_i_function_diff_lists (__main__.lab4b.test_i_function_diff_lists)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_lists() ... ok
+test_0 (__main__.lab4c.test_0)
+[Lab 4] - [Investigation 1] - [Part 3] - Data Structures - Test for file creation: ./lab4c.py ... ok
+test_a (__main__.lab4c.test_a)
+[Lab 4] - [Investigation 1] - [Part 3] - Data Structures - Test for errors running: ./lab4c.py ... FAIL
+
+======================================================================
+FAIL: test_a (__main__.lab4c.test_a)
+[Lab 4] - [Investigation 1] - [Part 3] - Data Structures - Test for errors running: ./lab4c.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/liabrown/lbrown63-OPS445-Labs/lab4/CheckLab4.py", line 285, in test_a
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: make sure you copied the script exactly!)
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.076s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running CheckLab4.py
+===============================================================
+    User login name: liabrown
+    Linux system name: fedora
+    Python executable: /usr/bin/python3
+    Python version: 3129
+    OS Platform: linux
+    Working Directory: /home/liabrown/lbrown63-OPS445-Labs/lab4
+    Start at: Sun Feb 23 21:00:18 2025
+===============================================================
